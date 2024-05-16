@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "CRUD express nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Oswald",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
+  }
+}
